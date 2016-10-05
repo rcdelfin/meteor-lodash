@@ -1,8 +1,8 @@
 Package.describe({
-  name: "erasaur:meteor-lodash",
-  summary: "Wrapper for Lo-Dash v4.0.0",
-  version: "4.0.0",
-  git: "https://github.com/erasaur/meteor-lodash.git"
+  name: "rcdelfin:meteor-lodash",
+  summary: "Wrapper for Lo-Dash v4.16.4",
+  version: "4.16.4",
+  git: "https://github.com/rcdelfin/meteor-lodash.git"
 });
 
 Package.onUse(function(api) {
@@ -14,4 +14,3 @@ Package.onUse(function(api) {
   api.export('lodash');
   api.export('_');
 });
-
